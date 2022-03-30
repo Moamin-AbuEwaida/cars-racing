@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Germania+One&family=Inspiration&family=Palette+Mosaic&family=Raleway:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Racing Car Game</title>
+  </head>
+  <body>
+    <div id="score-div">
+      <span>score:</span>
+      <span id="score">0</span>
+    </div>
+    <div id="container">
+      <!-- drawing the road-->
+      <div class="line" id="line-1"></div>
+      <div class="line" id="line-2"></div>
+      <div class="line" id="line-3"></div>
+
+      <div class="car" id="car">
+        <!--car parts-->
+        <div class="f-glass"></div>
+        <div class="f-light-l"></div>
+        <div class="f-light-r"></div>
+        <div class="f-tyre-l"></div>
+        <div class="f-tyre-r"></div>
+        <div class="b-tyre-r"></div>
+        <div class="b-tyre-l"></div>
+        <div class="b-glass"></div>
+      </div>
+
+      <div class="car" id="car-1">
+        <!--other cars parts-->
+        <div class="f-glass"></div>
+        <div class="f-light-l"></div>
+        <div class="f-light-r"></div>
+        <div class="f-tyre-l"></div>
+        <div class="f-tyre-r"></div>
+        <div class="b-tyre-r"></div>
+        <div class="b-tyre-r"></div>
+        <div class="b-glass"></div>
+      </div>
+
+      <div class="car" id="car-2">
+        <!--other cars parts-->
+        <div class="f-glass"></div>
+        <div class="f-light-l"></div>
+        <div class="f-light-r"></div>
+        <div class="f-tyre-l"></div>
+        <div class="f-tyre-r"></div>
+        <div class="b-tyre-r"></div>
+        <div class="b-tyre-r"></div>
+        <div class="b-glass"></div>
+      </div>
+
+      <div class="car" id="car-3">
+        <!--other cars parts-->
+        <div class="f-glass"></div>
+        <div class="f-light-l"></div>
+        <div class="f-light-r"></div>
+        <div class="f-tyre-l"></div>
+        <div class="f-tyre-r"></div>
+        <div class="b-tyre-r"></div>
+        <div class="b-tyre-r"></div>
+        <div class="b-glass"></div>
+      </div>
+
+      <div id="restart-div">
+        <button id="restart">Click to restart</button>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
